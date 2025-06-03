@@ -34,7 +34,7 @@ Dự án này triển khai một hệ thống học sâu để tạo quảng cá
 1. Clone repository:
 ```bash
 git clone https://github.com/number1010/generating-soft-drink-advertisements-.git
-cd generating-soft-drink-advertisements-
+
 ```
 
 2. Upload toàn bộ code lên Google Drive
@@ -56,9 +56,10 @@ cd generating-soft-drink-advertisements-
    - Cell 1: Mount Google Drive để truy cập dữ liệu
    - Cell 2: Cài đặt các thư viện cần thiết
    - Cell 3: Import các thư viện và thiết lập môi trường
-   - Cell 4: Định nghĩa dataset và dataloader
-   - Cell 5: Thiết lập model, optimizer và bắt đầu training
-   - Cell 6: Thử nghiệm model đã train với các prompt từ tập test
+   - Cell 4,5: Định nghĩa dataset và dataloader
+   - Cell 6: Thiết lập model, optimizer và bắt đầu training
+   - Cell 7,8,9: Bỏ qua nếu bạn đã training đủ ở cell 6 
+   - Cell còn lại: Thử nghiệm model đã train với các prompt từ tập test
 
 3. Các tham số training quan trọng:
    - Batch size: 1
